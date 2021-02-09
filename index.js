@@ -16,6 +16,11 @@ $(document).keypress(function(){
   }
 });
 
+$(".inst").click(function(){
+  alert("you have to follow the color sequence");
+});
+
+
 $(".btn").click(function(){
   var userChosenColour= $(this).attr("id");
   userClickedPattern.push(userChosenColour);
